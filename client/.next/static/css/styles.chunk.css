@@ -1,0 +1,32 @@
+.app-body {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 25px;
+}
+
+.rows { 
+  display: block;
+  flex-direction: column;
+  width: 45vw;
+  background-color: #eeeeee;
+  padding: 10px;
+  box-shadow: 1px 1px 3px;
+  margin: 5px;
+}
+
+.rows:hover { 
+  background-color: #cccccc;
+  box-shadow: 1px 1px 3px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
